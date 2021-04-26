@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<title>Secure File Storage</title>
+<style type="text/css">
+body{
+	background: url('../static/img/background.png');
+	color: rgb(248, 189, 100);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.file {
+  display: none;
+}
+.file-name {
+  position: relative;
+  overflow: hidden;
+  line-height: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  vertical-align: middle;
+  width: 300px;
+  border: 2px solid #dbdbdb;
+  border-radius: 0;
+  height: 30px;
+}
+.btn {
+  border: none;
+  border-radius: 0;
+  width: auto;
+  box-sizing: border-box;
+  padding: 2px 10px;
+  transition: all 0.6s;
+  color: #FFF;
+  font-size: 15px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+.btn:hover{
+	box-shadow: 0 0 5px #33006e;
+}
+</style>
+</head>
+<body> 
+<center> <h1> Secure File Storage </h1><br> 
+	<h2>Demonstration of Secure File Storage using Hybrid Cryptography</h2> <br>
+        
+<form action="/data/" method=post enctype=multipart/form-data>
+      		<!-- <center><input type=file name=file>   Click to upload your file.</center> -->
+			  <center> 
+				  <div class="d-flex justify-content-center wrapper align-items-center">
+				<input type="file" name="file" id="file" class="file">
+				<div class="d-flex">
+				  <input type="text" name="file-name" id="file-name" class="file-name">
+				  <input type="button" class="btn btn-danger bunton" value="select">
+				</div>
+			  </div>
+			</center>
+         	<br><input class="btn btn-danger" type=submit value="Upload & Process">
+</form>
+</center>
+<footer><h4><center><br><br><br><br><br><br><br><br><br><br><br><br><br><br> By : OM AGRAWAL  <br> Roll No. : 1018654</h4> 
+        <br></footer></center>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready(function() {
+  $('.bunton').on('click', function() {
+    $('.file').trigger('click');
+  });
+
+  $('.file').on('change', function() {
+    var fileName = $(this)[0].files[0].name;    
+    $('#file-name').val(fileName);
+  });
+})
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</html>
