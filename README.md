@@ -24,7 +24,7 @@ Step 1: Install Requirements</br>
 Step 2: Run the application</br>
 `python app.py` </br>
 
-Step 3: Visit the localhost from your browser</br>
+Step 3: Visit the localhost on your browser</br>
 
 Step 4: Enjoy😉😉
 
