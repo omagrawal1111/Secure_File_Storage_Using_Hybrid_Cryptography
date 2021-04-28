@@ -17,3 +17,6 @@ A flask web app to upload, encrypt and store file using Hybrid Cryptography.
 ▶ Werkzeug==1.0.1  <br>
 ▶ gunicorn==19.9.0  <br>
 
+```python
+pip install requirements.txt
+```
