@@ -29,5 +29,5 @@ Step 3: Visit the localhost from your browser</br>
 Step 4: Enjoy :)
 
 
-**IF YOU ARE INTERESTED IN COLLABORATING TO IMPROVE THIS PROJECT FEEL FREE TO CONTACT ME :**
+**IF YOU ARE INTERESTED IN COLLABORATING TO IMPROVE THIS PROJECT FEEL FREE TO CONTACT ME :**<br>
 **OM AGRAWAL : recruitomagrawal.gehu@gmail.com**
