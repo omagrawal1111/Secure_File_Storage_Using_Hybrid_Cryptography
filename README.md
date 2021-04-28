@@ -17,6 +17,16 @@ A flask web app to upload, encrypt and store file using Hybrid Cryptography.
 ▶ Werkzeug==1.0.1  <br>
 ▶ gunicorn==19.9.0  <br>
 
+## How To Run :
+Step 1: Install Requirements</br>
 ```python
-pip install requirements.txt
-```
+pip install -r requirements.txt```</br>
+
+Step 2: Run the application</br>
+```python
+python app.py```</br>
+
+Step 3: Visit the localhost from your browser</br>
+
+Step 4: Enjoy :)
+
