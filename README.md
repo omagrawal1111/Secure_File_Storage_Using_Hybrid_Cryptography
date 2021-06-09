@@ -1,13 +1,13 @@
 # Secure-File-Storage-Using-Hybrid-Cryptography
 A flask web app to upload, encrypt and store **text** file using Hybrid Cryptography. 
 
-## Algorithms Used : 
+## 🎐Algorithms Used : 
 ▶ AES Algorithm  <br>
 ▶ BlowFish Algorithm  <br>
 ▶ TrippleDES Algorithm  <br>
 ▶ IDEA  <br>
 
-## Requirements for running this Project
+## 🎐Requirements for running this Project
 ▶ cryptography==2.9.2 <br>
 ▶ Flask==1.1.1  <br>
 ▶ Flask-Cache==0.13.1  <br>
