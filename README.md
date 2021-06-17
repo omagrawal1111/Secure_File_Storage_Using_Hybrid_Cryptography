@@ -1,7 +1,7 @@
 # Secure-File-Storage-Using-Hybrid-Cryptography
 A flask web app to upload, encrypt and store **text** file using Hybrid Cryptography. 
 
-## 🎐Algorithms Used : 
+## 🎐Algorithms Used🎐 : 
 ▶ AES Algorithm  <br>
 ▶ BlowFish Algorithm  <br>
 ▶ TrippleDES Algorithm  <br>
